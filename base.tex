@@ -1,0 +1,35 @@
+\documentclass[sigconf]{acmart}
+\settopmatter{printacmref=false, printfolios=false}
+\input{preamble/packages.tex}
+\input{preamble/publishing.tex}
+
+% Please put all \newcommands here
+\input{preamble/functions.tex}
+
+\begin{document}
+\input{precontent/title.tex}
+\input{precontent/authors.tex}
+\input{precontent/cssxml.tex}
+
+\begin{abstract}
+\input{precontent/abstract.tex}
+\end{abstract}
+\keywords{Some eye-catching keywords...}
+\maketitle
+
+\input{content/intro.tex}
+\input{content/hypothesis.tex}
+\input{content/literature.tex}
+\input{content/method.tex}
+\input{content/result.tex}
+\input{content/discussion.tex}
+\input{content/conclusion.tex}
+\input{content/appendix.tex}
+
+
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{ref} 
+
+\end{document}
